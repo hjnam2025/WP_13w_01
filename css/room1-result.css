@@ -20,8 +20,7 @@
 	    font-style: normal;
 	} 
 
-		div{display: flex;
-  justify-content: center;}
+		div{justify-content: center;}
 
 
 
@@ -29,9 +28,9 @@
 		margin: 0;
 		}
 		h1{font-family: 'GmarketSansBold';
-		 font-size: 2.5rem; }
+		 font-size: 3rem; }
 		h2{font-family: 'GmarketSansMedium';
-		 font-size: 1.8rem; text-align: left}
+		 font-size: 1.6rem; text-align: left}
 
 		p{font-family: 'GmarketSansLight';
 		 font-size: 1.8rem; 
@@ -40,7 +39,6 @@
 		body{position: relative;}
 
 		body {
-	    display: flex;
 	    justify-content: center;
 	    align-items: center;
 	    min-height: 80vh;
@@ -54,16 +52,24 @@
 
 
 	#result-image, .R-img {
+		margin-top: 80px;
 	  position: absolute;
-	  width: 500px;
-	  height: auto;
-	  top: calc(50vh - 325px);
-	  left: calc(50vw - 250px);
-	
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  width: 400px;;	
+	  z-index: 10;
 }
+
+	#mirror-img {
+	  margin: auto;
+	  width: 700px;
+}
+	  
 
 	#result-container {
 	    margin-top: 30px;
+	    text-align: center;
 	}
 
 	#result-container h2 {
@@ -72,21 +78,6 @@
 	}
 
 	#result-text {
-	    font-size: 1.1em;
 	    color: #555;
-	    margin-bottom: 20px;
+	    
 	}
-
-	#mirror-img {
-	  margin-bottom: auto;
-	  width: 400px;
-	  height: auto;
-	  
-	}
-
-
-
-
-
-
-
