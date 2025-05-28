@@ -1,0 +1,92 @@
+@font-face {
+	    font-family: 'GmarketSansLight';
+	    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('opentype');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+@font-face {
+	    font-family: 'GmarketSansMedium';
+	    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('opentype');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+@font-face {
+	    font-family: 'GmarketSansBold';
+	    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') 
+	    	format('opentype');
+	    font-weight: normal;
+	    font-style: normal;
+	} 
+
+		div{display: flex;
+  justify-content: center;}
+
+
+
+		html{font-family: 'GmarketSansMedium';
+		margin: 0;
+		}
+		h1{font-family: 'GmarketSansBold';
+		 font-size: 2.5rem; }
+		h2{font-family: 'GmarketSansMedium';
+		 font-size: 1.8rem; text-align: left}
+
+		p{font-family: 'GmarketSansLight';
+		 font-size: 1.8rem; 
+		}
+		body,h1,h2,p{margin: 0; }
+		body{position: relative;}
+
+		body {
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    min-height: 80vh;
+	    background-color: #f0f0f0;
+	    padding: 20px;
+	    box-sizing: border-box; 
+	}
+
+
+		.wrap{width:600px; margin:auto;}
+
+
+	#result-image, .R-img {
+	  position: absolute;
+	  width: 500px;
+	  height: auto;
+	  top: calc(50vh - 325px);
+	  left: calc(50vw - 250px);
+	
+}
+
+	#result-container {
+	    margin-top: 30px;
+	}
+
+	#result-container h2 {
+	    color: #333;
+	    margin-bottom: 20px;
+	}
+
+	#result-text {
+	    font-size: 1.1em;
+	    color: #555;
+	    margin-bottom: 20px;
+	}
+
+	#mirror-img {
+	  margin-bottom: auto;
+	  width: 400px;
+	  height: auto;
+	  
+	}
+
+
+
+
+
+
+

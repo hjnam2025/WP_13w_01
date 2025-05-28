@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') 
+    	format('opentype');
+    font-weight: normal;
+    font-style: normal;} 
+
+	.shd{text-shadow: 0 0 0.2em white}
+
+	html{font-family: 'GmarketSansMedium';
+	}
+	h1{font-family: 'GmarketSansBold';
+	 font-size: 3rem; }
+	h2{font-family: 'GmarketSansMedium';
+	 font-size: 2rem; }
+
+	p{font-family: 'GmarketSansLight';
+	 font-size: 1.8rem; 
+	  color: white;
+	}
+	body,h1,h2,p,ol,ul{margin: 0; padding: 0;}
+
+	footer{padding-bottom: 100px;
+			padding-top: 300px;
+			position: absolute; top: 0;
+			left:calc(50vw - 5.72px); 
+			top:calc(50vh + 1600px)
+			}
+
+	.hello {background-image: url("../img/intro-bg.png");
+			background-size: 100%;	
+			background-repeat: no-repeat;
+			
+			}
+
+	.wrap{width:600px; margin:auto;}
+
+	.box{	border-radius: 20px; 
+			padding: 0px 20px;
+			text-align: center;
+			background-color: rgba(255, 255, 255, 0.5);
+			backdrop-filter: blur(10px);
+			width: 600px; height: 150px;
+			position: absolute; top: 0;
+			left:calc(50vw - 320px); 
+			top:calc(50vh - 75px);
+			line-height: 1.5;
+			color: black;
+			}
+
+
+
+
+	.bpbp{	text-align: center;
+			position: absolute; top: 0;
+			left:calc(50vw - 139.12px); 
+			top:calc(50vh + 450px);}
+
+	.bpbp2{	text-align: left;
+			position: absolute; top: 0;
+			left:calc(50vw - 380px); 
+			top:calc(50vh + 650px);	}
+
+	.bpbp03{text-align: right;
+			position: absolute; top: 0;
+			left:calc(50vw - 50px); 
+			top:calc(50vh + 800px);}
+
+	.bpbp04{text-align: center;
+			position: absolute; top: 0;
+			left:calc(50vw - 241.8px); 
+			top:calc(50vh + 1050px);}
+
+	.bpbp05{text-align: right;
+			position: absolute; top: 0;
+			left:calc(50vw - 60px); 
+			top:calc(50vh + 1160px);
+			color: white;
+			}
+
+	.bpbp06{text-align: center;
+			width: 800px;
+			position: absolute; top: 0;
+			left:calc(50vw - 400px); 
+			top:calc(50vh + 1400px);
+			line-height: 1.25;
+			color: black;
+			}
+
+
+
+	#Door {cursor: pointer;
+			width: 500px;
+			height: auto;
+			position: absolute; top: 0;
+			left:calc(50vw - 250px); 
+			top:calc(50vh + 1650px);
+
+
+	}
+
+
+
+
+
+	.foot{text-align: center;
+			width: 100px;
+			position: absolute; top: 0;
+			left:calc(50vw - 50px); 
+			top:calc(50vh + 2000px);
+			
+			}
+
+
