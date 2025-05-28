@@ -18,11 +18,7 @@
 	    	format('opentype');
 	    font-weight: normal;
 	    font-style: normal;
-	} 
-
-		div{display: flex;
-  justify-content: center;}
-
+	}
 
 
 		html{font-family: 'GmarketSansMedium';
@@ -41,8 +37,9 @@
 
 		body {
 	    display: flex;
+	    flex-direction: row;
 	    justify-content: center;
-	    align-items: center;
+	   
 	    min-height: 80vh;
 	    background-color: #f0f0f0;
 	    padding: 20px;
@@ -59,18 +56,25 @@
 				font-size: 2.2rem
 			}
 
+
+		.content-wrapper {
+		  display: flex;
+		  justify-content: center;
+		  align-items: flex-start;
+		  gap: 40px;
+		}
+
 	#mirror-img {
-	  position: absolute;
-	  width: 400px;
+	  width: 500px;
 	  height: auto;
-	  top: calc(50vh - 400px);
-	  left: calc(50vw - 250px);
+	  margin-top: 90px 
+	  
 	}
 
 	
 
-	.quiz-container {margin-top: 50px ;
-
+	.quiz-container {
+		margin-top: 50px ;
 	    background-color: #fff;
 	    padding: 30px;
 	    border-radius: 15px;
