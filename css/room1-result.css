@@ -1,3 +1,12 @@
+chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
+  if (chrome.runtime.lastError) {
+    console.error("Error sending message:", chrome.runtime.lastError.message);
+    // Handle the error, e.g., the recipient is not available
+  } else {
+    console.log(response.farewell);
+  }
+});
+
 @font-face {
 	    font-family: 'GmarketSansLight';
 	    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('opentype');
